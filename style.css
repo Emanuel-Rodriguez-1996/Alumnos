@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.texto-con-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-pequena {
+    width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 10px; /* Espacio entre la imagen y el texto */
+}
+
+
+h1 {
+    font-family: "Playwrite CU", cursive;
+    color: #333;
+    font-size: 70px;
+    color: #e45b69e1;
+    margin-top: 30px;
+   
+}
+h2{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 40px;
+    color: #c82333;
+    padding: 20px;
+}
+
+#slcAlumnos, #fecha, #registrarBtn, #eliminarBtn {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#slcAlumnos {
+    width: 250px;
+    border-bottom: #333 solid 3px;
+    border-top: none;
+    box-shadow: 10px 10px 10px rgba(226, 98, 98, 0.74);
+    border-radius: 20px;
+}
+
+#fecha {
+    border-bottom: #333 solid 3px;
+    border-top: none;
+    box-shadow: 10px 10px 10px rgba(226, 98, 98, 0.74);
+    border-radius: 20px;
+}
+
+#registrarBtn, #eliminarBtn {
+    background-color: #f05454af;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registrarBtn:hover, #eliminarBtn:hover {
+    background-color: #f70000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 0;
+    background-color: white;
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 30px;
+}
+
+tr:hover {
+    background-color: #afacacd5;
+}
+
+.eliminarFilaBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.eliminarFilaBtn:hover {
+    background-color: #c82333;
+}
+.contenedor1 {
+    background-image: url('imgs/fondo.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacia los elementos para colocar el botón al fondo */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total del contenedor */
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
